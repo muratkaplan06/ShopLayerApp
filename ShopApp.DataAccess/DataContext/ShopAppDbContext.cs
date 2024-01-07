@@ -16,7 +16,7 @@ namespace ShopApp.DataAccess.DataContext
         {
 
         }
-
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
