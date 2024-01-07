@@ -21,7 +21,7 @@ namespace ShopApp.Business.Concrete
             _mapper = mapper;
         }
 
-        
+        //deneme
 
         public CustomResponseModel<PaginationBasketProductModel> GetAll(QueryParametersModel query, string userId)
         {
